@@ -4,7 +4,7 @@ namespace web_app_agh.Data
 	{
 		private static readonly string[] Summaries = new[]
 		{
-		"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+			"Freezing in CI/CD"
 	};
 
 		public Task<WeatherForecast[]> GetForecastAsync(DateTime startDate)
